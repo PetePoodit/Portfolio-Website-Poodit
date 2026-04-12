@@ -1,65 +1,92 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import TopBar from "@/components/topbar";
+import Image from "next/image";
+import Link from "next/link";
+
+export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="min-h-screen bg-white">
+      <TopBar />
+      <section
+        id="home"
+        className="flex flex-col items-center justify-center min-h-screen"
+      >
+        <h1 className="text-4xl font-bold text-black mb-4">
+          Poodit's Portfolios.
+        </h1>
+        <p className="text-gray-700">
+          “A portfolio that combines all of my works across frontend
+          development, UX/UI design, and creative projects.”
+        </p>
+      </section>
+      <section
+        id="about"
+        className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 bg-black text-white px-6 md:px-16 py-24 min-h-screen"
+      >
+        <div className="w-64 h-64 md:w-80 md:h-80 relative rounded-3xl overflow-hidden shadow-lg border-4 border-white">
+          <Image
+            src="/linkedin-pf.jpg"
+            alt="Poodit Profile"
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="max-w-xl text-center md:text-left">
+          <h2 className="text-3xl font-semibold mb-4">Hello, I’m Pete 👋</h2>
+          <p className="text-gray-300 leading-relaxed">
+            Hello! My fullname is Poodit Kootrakul, but you can just call me
+            Pete. I’m a Computer Science student who finds beauty in both logic
+            and layout where every line of code shapes an experience, and every
+            pixel tells a story. For me, frontend development is more than just
+            building interfaces — it’s about crafting emotions through design,
+            blending art and engineering to make every click feel effortless,
+            meaningful, and alive.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      <section
+        id="works"
+        className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 bg-black text-white px-6 md:px-16 py-24 min-h-screen"
+      >
+        <div className="w-56 h-60 md:w-120 md:h-80  relative">
+          <Image
+            src="/warnjai-logo.png"
+            alt="Warnjai Work"
+            fill
+            className="object-contain"
+            priority
+          />
         </div>
-      </main>
-    </div>
+        <div className="max-w-xl text-center md:text-left space-y-6">
+          <h2 className="text-3xl font-semibold mb-4">Warnjai</h2>
+          <p className="text-gray-300 leading-relaxed">
+            Warnjai is the application project that i have designed with my team
+            to compete in the Startup Thailand league 2024, It's the Application
+            about helping people about a pms and sex problems.
+          </p>
+          <Link
+          href="https://www.figma.com/design/j7rTAmb4T843j6oEAGjkgJ/SEX-and-PMS-App-BETA?node-id=0-1&p=f"
+          className="
+            inline-flex items-center justify-center
+            px-6 py-3
+            rounded-full
+           bg-white text-black font-semibold
+            transition-all duration-300
+            hover:bg-gray-800 hover:scale-105
+            active:scale-95
+            shadow-md hover:shadow-lg"
+        >
+          See a Figma Prototype
+        </Link>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 bg-black text-white px-6 md:px-16 py-24 min-h-screen"
+      ></section>
+    </main>
   );
 }
