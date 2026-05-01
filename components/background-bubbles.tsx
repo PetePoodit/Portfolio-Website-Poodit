@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { themeConfig } from "@/lib/theme-config";
 
 const bubbles = [
   { id: 1, size: 60, left: "10%", duration: 15, delay: 0 },
@@ -12,12 +13,14 @@ const bubbles = [
 ];
 
 export default function BackgroundBubbles() {
+  const colors = themeConfig.dark;
+
   return (
-    <div className="fixed inset-0 pointer-events-none overflow-hidden z-1">
+    <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
       {bubbles.map((bubble) => (
         <motion.div
           key={bubble.id}
-          className="absolute bottom-[-200px] rounded-full bg-gray-500/10 border border-gray-500/20 backdrop-blur-sm"
+          className={`absolute bottom-[-200px] rounded-full ${colors.bubble.bg} ${colors.bubble.border} border backdrop-blur-sm`}
           style={{
             width: bubble.size,
             height: bubble.size,

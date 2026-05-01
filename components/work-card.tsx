@@ -21,6 +21,9 @@ export default function WorkCard({
   linkLabel,
   onActive,
 }: WorkCardProps) {
+  const buttonBg = "bg-white text-black hover:bg-gray-200";
+  const descriptionColor = "text-gray-300";
+
   return (
     <motion.div
       className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20"
@@ -42,18 +45,19 @@ export default function WorkCard({
         </div>
         <div className="max-w-xl text-center md:text-left space-y-6">
           <h2 className="text-3xl font-semibold mb-4">{header}</h2>
-          <p className="text-gray-300 leading-relaxed">{description}</p>
+          <p className={`${descriptionColor} leading-relaxed`}>{description}</p>
           <Link
             href={linkHref}
-            className="
+            className={`
               inline-flex items-center justify-center
               px-6 py-3
               rounded-full
-            bg-white text-black font-semibold
+              ${buttonBg}
+              font-semibold
               transition-all duration-300
-              hover:bg-gray-800 hover:scale-105
+              hover:scale-105
               active:scale-95
-              shadow-md hover:shadow-lg"
+              shadow-md hover:shadow-lg`}
           >
             {linkLabel}
           </Link>

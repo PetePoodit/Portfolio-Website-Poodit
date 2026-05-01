@@ -28,3 +28,15 @@ export const portfolioWorks = [
     }
 
 ];
+
+
+export type ContactIcon = "gmail" | "linkedin" | "github" | "phone";
+
+export type ContactItem = {
+    id: string;
+    label: string;
+    value: string;
+    href: string;
+    icon : ContactIcon;
+    external?: boolean;
+}
