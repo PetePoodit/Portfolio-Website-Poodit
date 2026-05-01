@@ -10,12 +10,33 @@ import { portfolioWorks } from "@/lib/data";
 import { contactItems } from "@/lib/contact-items";
 import BackgroundBubbles from "@/components/background-bubbles";
 import ContactIcon from "@/components/contact-icon";
-import { themeConfig } from "@/lib/theme-config";
 
 export default function HomePage() {
-  const colors = themeConfig.dark;
   const [activeWork, setActiveWork] = useState(0);
   const [isWorksVisible, setIsWorksVisible] = useState(false);
+
+  const colors = {
+    section: {
+      primary: "bg-black",
+    },
+    text: {
+      primary: "text-white",
+      secondary: "text-gray-300",
+      tertiary: "text-gray-400",
+    },
+    accent: {
+      primary: "text-cyan-300",
+    },
+    card: {
+      border: "border-white/15",
+      bg: "bg-white/5",
+    },
+    icon: {
+      border: "border-white/20",
+      bg: "bg-white/10",
+      color: "text-cyan-300",
+    },
+  };
 
   return (
     <main

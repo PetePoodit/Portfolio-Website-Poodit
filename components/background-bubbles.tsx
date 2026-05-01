@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { themeConfig } from "@/lib/theme-config";
 
 const bubbles = [
   { id: 1, size: 60, left: "10%", duration: 15, delay: 0 },
@@ -13,7 +12,12 @@ const bubbles = [
 ];
 
 export default function BackgroundBubbles() {
-  const colors = themeConfig.dark;
+  const colors = {
+    bubble: {
+      bg: "bg-gray-500/10",
+      border: "border-gray-500/20",
+    },
+  };
 
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
