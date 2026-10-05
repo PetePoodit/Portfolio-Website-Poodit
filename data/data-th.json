@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับ",
+    "works": "ผลงาน",
+    "internships": "ประสบการณ์ฝึกงาน",
+    "personalProjects": "โปรเจกต์ส่วนตัว",
+    "contact": "ติดต่อ"
+  },
+  "hero": {
+    "badge": "Fullstack Developer & UX/UI Designer",
+    "title": "พอร์ตโฟลิโอของพีท",
+    "description": "“พอร์ตโฟลิโอที่รวบรวมผลงานทั้งหมดของผม ทั้งการพัฒนาเว็บไซต์/แอปพลิเคชัน การออกแบบ UX/UI และโปรเจกต์ที่สร้างสรรค์ต่างๆ”"
+  },
+  "about": {
+    "title": "สวัสดีครับ, ผมพีท 👋",
+    "description": "สวัสดีครับ ผมพีท ภูดิส คู่ตระกูล นิสิตวิทยาการคอมพิวเตอร์ที่หลงใหลในการผสาน 'ตรรกะของการเขียนโค้ด' เข้ากับ 'ศิลปะของการออกแบบ' สำหรับผม การทำ Frontend ไม่ใช่แค่การสร้างอินเทอร์เฟซ แต่คือการออกแบบประสบการณ์ของผู้ใช้ (UX/UI) ที่เชื่อมโยงวิศวกรรมเข้ากับความรู้สึก เพื่อให้ทุกการคลิกและทุกการใช้งานลื่นไหล ง่ายดาย และตอบโจทย์จริงครับ"
+  },
+  "works": {
+    "internshipsTitle": "ประสบการณ์ฝึกงาน & การทำงาน",
+    "internshipsDescription": "การพัฒนาซอฟต์แวร์ระดับโปรดักชันในสภาพแวดล้อมการทำงานจริงร่วมกับทีมวิศวกรรมซอฟต์แวร์",
+    "personalTitle": "โปรเจกต์ส่วนตัว & ผลงานร่วมกับทีม",
+    "personalDescription": "โปรเจกต์ที่สร้างสรรค์ขึ้นเอง การแข่งขัน Hackathon และการทดลองด้านสถาปัตยกรรม Full-Stack และ UX/UI Design",
+    "categoryLabels": {
+      "internship": "ประสบการณ์ฝึกงาน",
+      "personal": "โปรเจกต์ส่วนตัว"
+    },
+    "items": [
+      {
+        "id": "tku-ai-intern",
+        "category": "internship",
+        "header": "AI / Machine Learning Research Intern",
+        "company": "TKU University, Taiwan",
+        "period": "ต.ค. 2026 – ม.ค. 2027",
+        "color": "#FF455B",
+        "description": "ทำวิจัยและพัฒนาอัลกอริทึม Computer Vision สำหรับงานประมวลผลภาพ (Image Processing) ร่วมกับภาควิชาวิทยาการคอมพิวเตอร์และวิศวกรรมสารสนเทศ พร้อมทั้งจัดเตรียมและทำ Data Preprocessing ชุดข้อมูลภาพขนาดใหญ่ และเทรนโมเดล Deep Learning ด้วย Python บน Kaggle รวมถึงวัดผลและปรับแต่งประสิทธิภาพเพื่อเพิ่มความแม่นยำสูงสุด",
+        "linkHref": "https://linkedin.com/in/poodit-kootrakul-5b742b372",
+        "linkLabel": "ดูข้อมูลประสบการณ์",
+        "tags": ["Python", "Computer Vision", "Deep Learning", "Kaggle", "PyTorch"],
+        "imagePath": "/tku.png",
+        "imageAlt": "การฝึกงานวิจัยด้าน AI มหาวิทยาลัย TKU ไต้หวัน"
+      },
+      {
+        "id": "sunday-insurance-intern",
+        "category": "internship",
+        "header": "Software Engineer Intern",
+        "company": "Sunday Insurance",
+        "period": "ก.ค. 2026 – ต.ค. 2026",
+        "color": "orange",
+        "description": "พัฒนา Responsive UI Components และระบบโฟลว์การต่ออายุกรมธรรม์หลักด้วย Next.js, React และ TypeScript เพื่อรองรับการรีแบรนด์ของแพลตฟอร์ม ควบคู่กับการดีบักและปรับปรุง RESTful API ระบบขายประกันรถยนต์เพื่อเพิ่มความเสถียรในการทำธุรกรรมระหว่างระบบโบรกเกอร์ ตลอดจนร่วมส่งมอบฟีเจอร์แบบ Full-stack ในทีมรูปแบบ Agile โดยมีส่วนร่วมตั้งแต่การรับ Requirement, การทำงานในแต่ละ Sprint จนถึงการนำระบบขึ้นใช้งานจริง (Production Deployment)",
+        "linkHref": "https://linkedin.com/in/poodit-kootrakul-5b742b372",
+        "linkLabel": "ดูข้อมูลประสบการณ์",
+        "tags": ["Next.js", "React", "TypeScript", "REST APIs", "Agile"],
+        "imagePath": "/sunday.png",
+        "imageAlt": "การฝึกงาน Software Engineer ที่ Sunday Insurance"
+      },
+      {
+        "id": "siemens-mis-intern",
+        "category": "internship",
+        "header": "MIS Developer Intern",
+        "company": "Siemens Limited",
+        "period": "เม.ย. 2026 – มิ.ย. 2026",
+        "color": "teal",
+        "description": "ออกแบบโครงสร้างฐานข้อมูล (Database Schema) และ Technical Sequence Diagram เพื่อจำลองและจัดเก็บข้อมูล Telemetry แบบเรียลไทม์จากสายการผลิตในโรงงานอุตสาหกรรม พร้อมทั้งเชื่อมต่อฐานข้อมูลเข้ากับระบบ Siemens WinCC OA โดยใช้ C++ และ JavaScript รวมถึงพัฒนา Interactive Dashboard ด้วย XML สำหรับมอนิเตอร์และตรวจสอบข้อมูลของโรงงานทั้งแบบเรียลไทม์และข้อมูลย้อนหลัง",
+        "linkHref": "https://linkedin.com/in/poodit-kootrakul-5b742b372",
+        "linkLabel": "ดูข้อมูลประสบการณ์",
+        "tags": ["C++", "JavaScript", "Siemens WinCC OA", "Database Schema", "XML"],
+        "imagePath": "/siemens.png",
+        "imageAlt": "การฝึกงาน MIS Developer ที่ Siemens Limited"
+      },
+      {
+        "id": "warnjai",
+        "category": "personal",
+        "header": "Warnjai (หวานใจ)",
+        "company": "Startup Thailand League",
+        "period": "2024",
+        "color": "rose",
+        "description": "แอปพลิเคชันที่ออกแบบร่วมกับทีมเพื่อเข้าแข่งขันในรายการ Startup Thailand League 2024 มุ่งเน้นการออกแบบที่เข้าอกเข้าใจผู้ใช้ (Empathy) เพื่อช่วยให้ผู้ใช้ติดตามสุขภาพและเข้าถึงข้อมูลการดูแลตนเองได้อย่างสะดวก ปลอดภัย และเข้าใจง่าย",
+        "linkHref": "https://www.figma.com/design/j7rTAmb4T843j6oEAGjkgJ/SEX-and-PMS-App-BETA?node-id=0-1&p=f",
+        "linkLabel": "ดูต้นแบบบน Figma",
+        "tags": ["Figma", "UI/UX Design", "Product Strategy", "User Research"],
+        "imagePath": "/warnjai-logo.png",
+        "imageAlt": "ผลงานออกแบบแอปพลิเคชัน Warnjai"
+      },
+      {
+        "id": "breakfast",
+        "category": "personal",
+        "header": "BreakFast",
+        "period": "2025",
+        "color": "amber",
+        "description": "แพลตฟอร์มดิจิทัลที่พัฒนาขึ้นเพื่อช่วยให้ร้านอาหารขนาดเล็กเปลี่ยนระบบการจัดการให้เป็นดิจิทัล พัฒนาแอปพลิเคชันมือถือแบบข้ามแพลตฟอร์มด้วย React Native และ Expo รองรับการจัดการออเดอร์ ตรวจสอบสต็อกวัตถุดิบ และขั้นตอนการเตรียมอาหาร โดยเชื่อมต่อกับระบบ Backend ด้วย Golang",
+        "linkHref": "https://github.com/BreakFast-SA-Project",
+        "linkLabel": "ดูบน GitHub",
+        "tags": ["React Native", "Expo", "Golang", "State Management"],
+        "imagePath": "/breakfast-pv.png",
+        "imageAlt": "ผลงานแอปพลิเคชัน BreakFast"
+      },
+      {
+        "id": "nisit-deden",
+        "category": "personal",
+        "header": "Nisit Deden (นิสิตดีเด่น)",
+        "period": "2025",
+        "color": "emerald",
+        "description": "เว็บแอปพลิเคชันแบบ Full-Stack ที่สร้างขึ้นเพื่อเปลี่ยนขั้นตอนการส่งผลงานรับรางวัลของมหาวิทยาลัยจากระบบกระดาษมาเป็นระบบดิจิทัล พัฒนาด้วย Laravel, SvelteKit, PostgreSQL และ Docker มีระบบ Role-Based Access Control ให้นิสิตสามารถส่งและติดตามสถานะผลงานได้ ในขณะที่คณะกรรมการมีแดชบอร์ดที่ปลอดภัยสำหรับตรวจประเมินผลอย่างมีประสิทธิภาพ",
+        "linkHref": "https://github.com/project-lamine-yamal",
+        "linkLabel": "ดูบน GitHub",
+        "tags": ["SvelteKit", "Laravel", "PostgreSQL", "Docker", "RBAC"],
+        "imagePath": "/nisit-deden-pv.png",
+        "imageAlt": "ผลงานเว็บแอปพลิเคชัน Nisit Deden"
+      }
+    ]
+  },
+  "indicator": {
+    "internships": "ฝึกงาน",
+    "personal": "โปรเจกต์"
+  },
+  "contact": {
+    "subtitle": "ช่องทางการติดต่อ",
+    "titleLine": "มาร่วมสร้างสรรค์",
+    "titleHighlight": "สิ่งใหม่ไปด้วยกัน",
+    "description": "เปิดรับโอกาสการฝึกงาน งานฟรีแลนซ์ และการร่วมงานกัน สามารถติดต่อผมได้ตามช่องทางด้านล่างนี้ครับ",
+    "items": [
+      {
+        "id": "gmail",
+        "label": "Gmail",
+        "value": "pooditpete7555@gmail.com",
+        "href": "mailto:poodit.kootrakul@gmail.com",
+        "icon": "gmail"
+      },
+      {
+        "id": "phone",
+        "label": "เบอร์โทรศัพท์",
+        "value": "+66 99-154-2964",
+        "href": "tel:+66991542964",
+        "icon": "phone"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "value": "Poodit Kootrakul",
+        "href": "https://linkedin.com/in/poodit-kootrakul-5b742b372",
+        "icon": "linkedin",
+        "external": true
+      },
+      {
+        "id": "github",
+        "label": "GitHub",
+        "value": "PetePoodit",
+        "href": "https://github.com/PetePoodit",
+        "icon": "github",
+        "external": true
+      }
+    ]
+  }
+}

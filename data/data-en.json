@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "works": "Works",
+    "internships": "Internships",
+    "personalProjects": "Personal Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Fullstack Developer & UX/UI Designer",
+    "title": "Poodit's Portfolios.",
+    "description": "“A portfolio that combines all of my works across Website/Application development, UX/UI design, and creative projects.”"
+  },
+  "about": {
+    "title": "Hello, I’m Pete 👋",
+    "description": "Hello! My fullname is Poodit Kootrakul, but you can just call me Pete. I’m a Computer Science student who finds beauty in both logic and layout where every line of code shapes an experience, and every pixel tells a story. For me, frontend development is more than just building interfaces — it’s about crafting emotions through design, blending art and engineering to make every click feel effortless, meaningful, and alive."
+  },
+  "works": {
+    "internshipsTitle": "Internships & Experience",
+    "internshipsDescription": "Hands-on engineering in collaborative environments, delivering production-level software and scalable web interfaces.",
+    "personalTitle": "Personal & Team Projects",
+    "personalDescription": "Independent builds, hackathon creations, and explorations in UX/UI design and full-stack software development.",
+    "categoryLabels": {
+      "internship": "Internship Experience",
+      "personal": "Personal Project"
+    },
+    "items": [
+      {
+        "id": "tku-ai-intern",
+        "category": "internship",
+        "header": "AI / Machine Learning Research Intern",
+        "company": "TKU University, Taiwan",
+        "period": "Oct 2026 – Jan 2027",
+        "color": "#FF455B",
+        "description": "Researched and implemented computer vision algorithms for image processing applications within the Department of Computer Science and Information Engineering. Preprocessed large-scale image datasets and trained deep learning models using Python and Kaggle, evaluating performance metrics to optimize accuracy.",
+        "linkHref": "https://linkedin.com/in/poodit-kootrakul-5b742b372",
+        "linkLabel": "View Experience",
+        "tags": ["Python", "Computer Vision", "Deep Learning", "Kaggle", "PyTorch"],
+        "imagePath": "/tku.png",
+        "imageAlt": "TKU University AI Research Internship"
+      },
+      {
+        "id": "sunday-insurance-intern",
+        "category": "internship",
+        "header": "Software Engineer Intern",
+        "company": "Sunday Insurance",
+        "period": "Jul 2026 – Oct 2026",
+        "color": "orange",
+        "description": "Built responsive UI components and core renewal workflows using Next.js, React, and TypeScript for the platform rebranding. Debugged and enhanced RESTful endpoints in the motor sales API to improve transaction reliability across broker systems, delivering full-stack features within an Agile team from requirements to production deployment.",
+        "linkHref": "https://linkedin.com/in/poodit-kootrakul-5b742b372",
+        "linkLabel": "View Experience",
+        "tags": ["Next.js", "React", "TypeScript", "REST APIs", "Agile"],
+        "imagePath": "/sunday.png",
+        "imageAlt": "Sunday Insurance Software Engineer Internship"
+      },
+      {
+        "id": "siemens-mis-intern",
+        "category": "internship",
+        "header": "MIS Developer Intern",
+        "company": "Siemens Limited",
+        "period": "Apr 2026 – Jun 2026",
+        "color": "teal",
+        "description": "Designed database schemas and technical sequence diagrams to model and capture real-time telemetry from industrial manufacturing pipelines. Integrated databases with Siemens WinCC OA using C++ and JavaScript, building interactive XML dashboards for live and historical factory data monitoring.",
+        "linkHref": "https://linkedin.com/in/poodit-kootrakul-5b742b372",
+        "linkLabel": "View Experience",
+        "tags": ["C++", "JavaScript", "Siemens WinCC OA", "Database Schema", "XML"],
+        "imagePath": "/siemens.png",
+        "imageAlt": "Siemens Limited MIS Developer Internship"
+      },
+      {
+        "id": "warnjai",
+        "category": "personal",
+        "header": "Warnjai",
+        "company": "Startup Thailand League",
+        "period": "2024",
+        "color": "rose",
+        "description": "Warnjai is an application designed with my team to compete in Startup Thailand League 2024. Focused on empathetic user journeys and human-centric design, the platform empowers users through accessible health tracking and supportive resources.",
+        "linkHref": "https://www.figma.com/design/j7rTAmb4T843j6oEAGjkgJ/SEX-and-PMS-App-BETA?node-id=0-1&p=f",
+        "linkLabel": "See Figma Prototype",
+        "tags": ["Figma", "UI/UX Design", "Product Strategy", "User Research"],
+        "imagePath": "/warnjai-logo.png",
+        "imageAlt": "Warnjai Work"
+      },
+      {
+        "id": "breakfast",
+        "category": "personal",
+        "header": "BreakFast",
+        "period": "2025",
+        "color": "amber",
+        "description": "A digital platform engineered to help local eateries streamline manual restaurant workflows. Developed cross-platform mobile views using React Native and Expo, supporting live order dispatching, real-time inventory tracking, and meal preparation pipelines with Golang backend integration.",
+        "linkHref": "https://github.com/BreakFast-SA-Project",
+        "linkLabel": "View on GitHub",
+        "tags": ["React Native", "Expo", "Golang", "State Management"],
+        "imagePath": "/breakfast-pv.png",
+        "imageAlt": "Breakfast Work"
+      },
+      {
+        "id": "nisit-deden",
+        "category": "personal",
+        "header": "Nisit Deden",
+        "period": "2025",
+        "color": "emerald",
+        "description": "A full-stack web application built to digitize university award submissions. Features role-based access control, allowing students to submit and track achievement portfolios while giving university administrators a secure evaluation dashboard with automated workflows.",
+        "linkHref": "https://github.com/project-lamine-yamal",
+        "linkLabel": "View on GitHub",
+        "tags": ["SvelteKit", "Laravel", "PostgreSQL", "Docker", "RBAC"],
+        "imagePath": "/nisit-deden-pv.png",
+        "imageAlt": "Nisit Deden Work"
+      }
+    ]
+  },
+  "indicator": {
+    "internships": "Internships",
+    "personal": "Personal"
+  },
+  "contact": {
+    "subtitle": "Get in touch",
+    "titleLine": "Let's build",
+    "titleHighlight": "something unforgettable.",
+    "description": "Open to internships, freelance work, and collaborations. Reach me on any platform below.",
+    "items": [
+      {
+        "id": "gmail",
+        "label": "Gmail",
+        "value": "pooditpete7555@gmail.com",
+        "href": "mailto:poodit.kootrakul@gmail.com",
+        "icon": "gmail"
+      },
+      {
+        "id": "phone",
+        "label": "Phone",
+        "value": "+66 99-154-2964",
+        "href": "tel:+66991542964",
+        "icon": "phone"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "value": "Poodit Kootrakul",
+        "href": "https://linkedin.com/in/poodit-kootrakul-5b742b372",
+        "icon": "linkedin",
+        "external": true
+      },
+      {
+        "id": "github",
+        "label": "GitHub",
+        "value": "PetePoodit",
+        "href": "https://github.com/PetePoodit",
+        "icon": "github",
+        "external": true
+      }
+    ]
+  }
+}
