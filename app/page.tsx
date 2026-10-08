@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import TopBar from "@/components/topbar";
-import LanguageSwitcher from "@/components/language-switcher";
+import NavDock from "@/components/nav-dock";
 import WorkCard from "@/components/work-card";
 import WorkIndicator from "@/components/work-indicator";
 import Image from "next/image";
@@ -65,9 +64,9 @@ export default function HomePage() {
       {/* Background Bubbles (Fixed behind all content layers) */}
       <BackgroundBubbles />
 
-      {/* Floating 2-Chapter Works Indicator */}
+      {/* Floating 2-Chapter Works Indicator (sits above the mobile bottom dock) */}
       <div
-        className={`fixed bottom-20 sm:bottom-8 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 ${
+        className={`fixed bottom-24 sm:bottom-8 left-1/2 -translate-x-1/2 z-40 transition-all duration-300 ${
           isWorksVisible
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-4 pointer-events-none"
@@ -80,11 +79,8 @@ export default function HomePage() {
         />
       </div>
 
-      {/* Floating Top Navigation */}
-      <TopBar />
-
-      {/* Language Switcher (Top Right) */}
-      <LanguageSwitcher />
+      {/* Navigation + Language Switcher (bottom dock on mobile, top on desktop) */}
+      <NavDock />
 
       <div className="relative z-10">
         {/* Hero Section */}
