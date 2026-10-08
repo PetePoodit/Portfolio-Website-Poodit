@@ -111,7 +111,7 @@ export default function HomePage() {
         {/* About Section */}
         <section
           id="about"
-          className={`flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 ${colors.section.primary} ${colors.text.primary} px-6 md:px-16 py-24 min-h-screen cursor-default`}
+          className={`flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 ${colors.text.primary} px-6 md:px-16 py-24 min-h-screen cursor-default`}
         >
           <div
             className={`w-64 h-64 md:w-80 md:h-80 relative rounded-3xl overflow-hidden shadow-2xl border-2 border-white/20`}
